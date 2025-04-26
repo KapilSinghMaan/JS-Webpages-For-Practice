@@ -1,0 +1,31 @@
+<!-- Temperature Conversion using Javascript -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" id="textbox">
+        <br>
+        <input type="radio" id="CtF" name="temptype">
+        <label for="CtF">Celcius To Fahrenheit</label>
+        <input type="radio" id="FtC" name="temptype">
+        <label for="FtC">Fahrenheit To Celcius</label>
+        <br>
+        <button type="button" onclick="covert()">Submit</button>
+        <p id="result"></p>
+    </form>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
